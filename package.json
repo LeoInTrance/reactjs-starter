@@ -1,6 +1,6 @@
 {
   "name": "reactjs-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReactJS Starter",
   "license": "UNLICENSED",
   "private": true,
@@ -64,7 +64,7 @@
     "redux-thunk": "^2.1.0",
     "redux-universal": "0.0.2",
     "sass-loader": "^4.1.1",
-    "serve-favicon": "~2.4.5",
+    "serve-favicon": "~2.3.0",
     "webpack": "^2.2.1",
     "window-or-global": "^1.0.1"
   }
