@@ -4,7 +4,7 @@
 <br />
 
 <div align="center">
-[![Known Vulnerabilities](https://snyk.io/test/github/leointrance/reactjs-starter/badge.svg)](https://snyk.io/test/github/leointrance/reactjs-starter)
+<a href="https://snyk.io/test/github/leointrance/reactjs-starter"><img src="https://snyk.io/test/github/leointrance/reactjs-starter/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/leointrance/reactjs-starter" style="max-width:100%;"></a>
 </div>
 
 <br />
