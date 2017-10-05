@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/leointrance/reactjs-starter/badge.svg)](https://snyk.io/test/github/leointrance/reactjs-starter)
+
 # README #
 
 ### Como utilizar em DEV ###
