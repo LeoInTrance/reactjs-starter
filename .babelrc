@@ -1,0 +1,33 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "modules": false
+            }
+        ],
+        "react",
+        "stage-0"
+    ],
+    "plugins": [
+        "react-html-attrs",
+        "transform-class-properties",
+        "transform-decorators-legacy",
+        "transform-object-assign"
+    ],
+    "env": {
+        "server": {
+            "plugins": [
+                [
+                    "css-modules-transform",
+                    {
+                        "preprocessCss": "./sass-loader.js",
+                        "extensions": [
+                            ".scss"
+                        ]
+                    }
+                ]
+            ]
+        }
+    }
+}

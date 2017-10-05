@@ -1,0 +1,60 @@
+/* STRUCTURE
+------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	&:before,
+	&:after {
+		box-sizing: border-box;
+	}
+}
+html {
+	font-size: 10px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+	text-rendering: optimizelegibility;
+	font-family: 'Poppins';
+	color: $color_1;
+}
+.app {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+	@media screen and (max-width: 1170px) {
+		width: 1024px;
+	}
+	@media screen and (max-width: 768px) {
+		width: calc(100% - 40px);
+		.header & {
+			height: 100%;
+			display: flex;
+		}
+		.section--benefits & {
+			width: 100%;
+		}
+	}
+	.section--result & {
+		z-index: 1;
+	}
+	.footer & {
+		width: calc(100% - 40px);
+	}
+	.footer__top &,
+	.footer__bottom & {
+		display: flex;
+		justify-content: space-between;
+		@media screen and (max-width: 768px) {
+			display: block;
+			justify-content: unset;
+		}
+	}
+}
