@@ -15,17 +15,15 @@
 
 <br />
 
-## Features
+### Features
 
-<dl>
-  <dt>Axios</dt>
-  <dt>Babel</dt>
-  <dt>Express</dt>
-  <dt>SASS</dt>
-  <dt>Redux</dt>
-  <dt>WebPack</dt>
-  <dt>And more...</dt>
-</dl>
+* Axios
+* Babel
+* Express
+* SASS
+* Redux
+* WebPack
+* And more...
 
 ### Quick start
 
