@@ -1,4 +1,4 @@
-<div align="center"><strong>ReactJS Starter Project</strong></div>
+<div align="center"><h1>ReactJS Starter Project</h1></div>
 <div align="center">A simple and intuitive code to start in the ReactJS world.</div>
 
 <br />
