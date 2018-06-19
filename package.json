@@ -17,7 +17,9 @@
     "prd": "rm -rf ./.build && npm-run-all --parallel prd:client prd:server",
     "prd:client": "webpack --define process.env.NODE_ENV='\"production\"' --config webpackconfig/webpack.config.prodClient.js -p",
     "prd:server": "webpack --define process.env.NODE_ENV='\"production\"' --config webpackconfig/webpack.config.prodServer.js -p",
-    "build": "node ./.build/app.js"
+    "build": "node ./.build/app.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.5",
@@ -67,6 +69,8 @@
     "sass-loader": "^6.0.6",
     "serve-favicon": "^2.4.5",
     "webpack": "^3.6.0",
-    "window-or-global": "^1.0.1"
-  }
+    "window-or-global": "^1.0.1",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
